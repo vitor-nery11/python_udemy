@@ -5,5 +5,4 @@ iterar = 0
 
 while  iterar <= tamanho_nome:
     print(nome[iterar])
-
-    iterar += 1 
+    iterar += 1
