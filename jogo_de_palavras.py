@@ -1,3 +1,4 @@
+import os 
 
 palavra_secreta = 'avatar'
 letras_acertadas = ''
@@ -23,8 +24,11 @@ while True:
     print('palavra formada:', palavra_formada)  
   
     if palavra_formada == palavra_secreta:
+       os.system('clear')
        print('Você ganhou, PARABENS !!!')
        print('A palavra era:', palavra_secreta)
        print('Tentativas:',numero_tentativas)
+       letras_acertadas = ''
+       numero_tentativas = 0 
 
         
